@@ -9,6 +9,12 @@
     "lint": "eslint",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*": [
+      "prettier --write",
+      "eslint"
+    ]
+  },
   "dependencies": {
     "next": "16.0.3",
     "react": "19.2.0",
