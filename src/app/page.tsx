@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   const foo = 'bar'
+  const foo2 = 'bar2'
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
