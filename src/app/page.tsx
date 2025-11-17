@@ -4,6 +4,7 @@ export default function Home() {
   const foo = 'bar'
   const foo2 = 'bar2'
   const foo3 = 'bar3'
+  const foo4 = 'bar4'
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
