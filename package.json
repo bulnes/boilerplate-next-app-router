@@ -2,18 +2,13 @@
   "name": "boilerplate-next-app-router",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "*": [
-      "prettier --write",
-      "eslint"
-    ]
   },
   "dependencies": {
     "next": "16.0.3",
