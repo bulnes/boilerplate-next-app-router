@@ -1,0 +1,8 @@
+# Not ignore:
+!.storybook
+!.jest
+# Ignore artifacts:
+build
+coverage
+.next
+node_modules
