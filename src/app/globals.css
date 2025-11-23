@@ -2,7 +2,8 @@
 
 html,
 body,
-#__next {
+#__next,
+#storybook-root {
   height: 100%;
 }
 

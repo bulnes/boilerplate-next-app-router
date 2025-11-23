@@ -1,14 +1,10 @@
 const jestConfig = {
   testEnvironment: 'jsdom', // Browser environment for testing React components
-  testPathIgnorePatterns: [
-    '/node_modules/',
-    '/.next/',
-    '/.*\\.(config|setup)\\.[cm]?ts?$', // Ignora *.config.* e *.setup.* (js/ts/cjs/mjs/cts/mts)
-    '/.*\\.d\\.(ts|js)$' // Ignora arquivos de declaração de tipos (*.d.ts/js)
-  ],
+  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true, // Enable code coverage collection
   collectCoverageFrom: [
     'src/**/*.ts(x)?', // Collect coverage from all source files
+    '!src/**/stories.ts(x)?', // Collect coverage from all source files
     '!src/app/**', // Exclude app directory
     '!src/styles/**', // Exclude styles directory
     '!src/types/**' // Exclude types directory

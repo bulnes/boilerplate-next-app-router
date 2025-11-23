@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
+<main
+  class="h-full flex items-center justify-center bg-purple-900 text-white"
+>
+  <h1
+    class="text-4xl font-bold"
+  >
     React Avançado
   </h1>
 </main>
