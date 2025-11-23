@@ -2,12 +2,39 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <main
-  class="h-full flex items-center justify-center bg-purple-900 text-white"
+  class="bg-[#06092b] text-white w-full h-full p-12 text-center flex flex-col items-center justify-center"
 >
+  <img
+    alt="Next.js Logo"
+    class=""
+    data-nimg="1"
+    decoding="async"
+    height="37"
+    loading="lazy"
+    src="/img/logo.svg"
+    style="color: transparent;"
+    width="180"
+  />
   <h1
-    class="text-4xl font-bold"
+    class="text-4xl"
   >
     React Avançado
   </h1>
+  <h2
+    class="text-xl font-normal"
+  >
+    TypeScript, ReactJS, NextJS e TailwindCSS
+  </h2>
+  <img
+    alt="Hero Illustration"
+    class="mt-12 w-[min(30rem, 100%)]"
+    data-nimg="1"
+    decoding="async"
+    height="100"
+    loading="lazy"
+    src="/img/hero-illustration.svg"
+    style="color: transparent;"
+    width="300"
+  />
 </main>
 `;
