@@ -4,7 +4,9 @@ const jestConfig = {
   collectCoverage: true, // Enable code coverage collection
   collectCoverageFrom: [
     'src/**/*.ts(x)?', // Collect coverage from all source files
-    '!src/app/**' // Exclude app directory
+    '!src/app/**', // Exclude app directory
+    '!src/styles/**', // Exclude styles directory
+    '!src/types/**' // Exclude types directory
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'], // Setup file for additional configurations
   modulePaths: ['<rootDir>/src/'], // Root directory for module resolution
